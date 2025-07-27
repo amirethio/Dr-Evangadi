@@ -1,0 +1,201 @@
+2025-07-26 11:50:31,904 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 11:50:32,365 - INFO - Received input (diabetes): [11.0, 1.0, 1.0, -20.0, 1.0, -9.0, -11.0, 110009.0]
+2025-07-26 11:50:32,365 - INFO - Preprocessed input (diabetes): [11.0, 1.0, 1.0, -20.0, 1.0, -9.0, -11.0, 110009.0, 0, 0, 0, 0]
+2025-07-26 11:50:32,411 - INFO - Prediction (diabetes): label=0, probability=0.08588951826095581
+2025-07-26 11:50:32,416 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.08588951826095581"
+2025-07-26 11:50:42,503 - INFO - Received input (diabetes): [11.0, 1.0, 1.0, -20.0, 1.0, -9.0, -11.0, 110009.0]
+2025-07-26 11:50:42,503 - INFO - Preprocessed input (diabetes): [11.0, 1.0, 1.0, -20.0, 1.0, -9.0, -11.0, 110009.0, 0, 0, 0, 0]
+2025-07-26 11:50:42,529 - INFO - Prediction (diabetes): label=0, probability=0.08588951826095581
+2025-07-26 11:50:42,530 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.08588951826095581"
+2025-07-26 11:50:53,282 - INFO - Received input (diabetes): [11.0, 1.0, 1.0, -20.0, 1.0, -9.0, -11.0, 110009.0]
+2025-07-26 11:50:53,282 - INFO - Preprocessed input (diabetes): [11.0, 1.0, 1.0, -20.0, 1.0, -9.0, -11.0, 110009.0, 0, 0, 0, 0]
+2025-07-26 11:50:53,314 - INFO - Prediction (diabetes): label=0, probability=0.08588951826095581
+2025-07-26 11:50:53,315 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.08588951826095581"
+2025-07-26 11:50:54,304 - INFO - Received input (diabetes): [11.0, 1.0, 1.0, -20.0, 1.0, -9.0, -11.0, 110009.0]
+2025-07-26 11:50:54,304 - INFO - Preprocessed input (diabetes): [11.0, 1.0, 1.0, -20.0, 1.0, -9.0, -11.0, 110009.0, 0, 0, 0, 0]
+2025-07-26 11:50:54,331 - INFO - Prediction (diabetes): label=0, probability=0.08588951826095581
+2025-07-26 11:50:54,332 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.08588951826095581"
+2025-07-26 11:52:45,321 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 11:52:57,585 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 11:53:04,914 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 11:53:26,611 - INFO - Received input (diabetes): [1.0, 1.0, 1.0, -6.0, 11.0, 1.0, 1.0, 1.0]
+2025-07-26 11:53:26,611 - INFO - Preprocessed input (diabetes): [1.0, 1.0, 1.0, -6.0, 11.0, 1.0, 1.0, 1.0, 0, 0, 0, 0]
+2025-07-26 11:53:26,612 - INFO - Prediction (diabetes): label=0, probability=0.05187932401895523
+2025-07-26 11:53:26,613 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.05187932401895523"
+2025-07-26 11:53:36,515 - INFO - Received input (diabetes): [1.0, 1.0, 1.0, -6.0, 11.0, 1.0, 1.0, 1.0]
+2025-07-26 11:53:36,515 - INFO - Preprocessed input (diabetes): [1.0, 1.0, 1.0, -6.0, 11.0, 1.0, 1.0, 1.0, 0, 0, 0, 0]
+2025-07-26 11:53:36,556 - INFO - Prediction (diabetes): label=0, probability=0.05187932401895523
+2025-07-26 11:53:36,556 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.05187932401895523"
+2025-07-26 11:56:25,541 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 11:56:26,066 - ERROR - Failed to log diabetes: name 'v' is not defined
+2025-07-26 11:56:35,009 - ERROR - Failed to log diabetes: name 'v' is not defined
+2025-07-26 11:57:36,906 - ERROR - Failed to log cancer: name 'v' is not defined
+2025-07-26 12:20:41,453 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:20:41,843 - INFO - Received input (diabetes): [1.0, 21.0, 1.0, 11.0, 1.0, 1.0, -1.0, 11.0]
+2025-07-26 12:20:41,843 - INFO - Preprocessed input (diabetes): [1.0, 21.0, 1.0, 11.0, 1.0, 1.0, -1.0, 11.0, 0, 0, 0, 0]
+2025-07-26 12:20:41,898 - INFO - Prediction (diabetes): label=0, probability=0.04445236921310425
+2025-07-26 12:20:41,900 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.04445236921310425"
+2025-07-26 12:20:44,193 - INFO - Received input (diabetes): [1.0, 21.0, 1.0, 11.0, 1.0, 1.0, -1.0, 11.0]
+2025-07-26 12:20:44,193 - INFO - Preprocessed input (diabetes): [1.0, 21.0, 1.0, 11.0, 1.0, 1.0, -1.0, 11.0, 0, 0, 0, 0]
+2025-07-26 12:20:44,216 - INFO - Prediction (diabetes): label=0, probability=0.04445236921310425
+2025-07-26 12:20:44,216 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.04445236921310425"
+2025-07-26 12:20:55,625 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 12:21:10,335 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 12:21:20,308 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 12:21:39,824 - INFO - Received input (diabetes): [1.0, 1.0, 1.0, 0.0, -1.0, -2.0, 0.0, 11.0]
+2025-07-26 12:21:39,824 - INFO - Preprocessed input (diabetes): [1.0, 1.0, 1.0, 29.0, -1.0, -2.0, 0.0, 11.0, 0, 0, 1, 0]
+2025-07-26 12:21:39,874 - INFO - Prediction (diabetes): label=0, probability=0.04445236921310425
+2025-07-26 12:21:39,875 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.04445236921310425"
+2025-07-26 12:21:50,024 - INFO - Received input (diabetes): [1.0, 1.0, 1.0, 0.0, -1.0, -2.0, 0.0, 11.0]
+2025-07-26 12:21:50,024 - INFO - Preprocessed input (diabetes): [1.0, 1.0, 1.0, 29.0, -1.0, -2.0, 0.0, 11.0, 0, 0, 1, 0]
+2025-07-26 12:21:50,058 - INFO - Prediction (diabetes): label=0, probability=0.04445236921310425
+2025-07-26 12:21:50,061 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.04445236921310425"
+2025-07-26 12:24:08,793 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:24:14,356 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 12:24:21,548 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 12:24:41,610 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 12:26:13,689 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:26:15,293 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
+2025-07-26 12:26:38,144 - INFO - Received input: [11.0, 11.0, 11.0, 11.0, 9.0, 111.0, 9.0, 11.0]
+2025-07-26 12:26:38,144 - INFO - Preprocessed input: [11.0, 11.0, 11.0, 11.0, 9.0, 111.0, 9.0, 11.0, 0, 0, 0, 0]
+2025-07-26 12:26:38,181 - INFO - Prediction: label=0, probability=0.14302338659763336
+2025-07-26 12:26:49,463 - INFO - Received input: [11.0, 11.0, 11.0, 11.0, 9.0, 111.0, 9.0, 11.0]
+2025-07-26 12:26:49,465 - INFO - Preprocessed input: [11.0, 11.0, 11.0, 11.0, 9.0, 111.0, 9.0, 11.0, 0, 0, 0, 0]
+2025-07-26 12:26:49,502 - INFO - Prediction: label=0, probability=0.14302338659763336
+2025-07-26 12:26:59,815 - INFO - Received input: [11.0, 11.0, 11.0, 11.0, 9.0, 111.0, 9.0, 11.0]
+2025-07-26 12:26:59,817 - INFO - Preprocessed input: [11.0, 11.0, 11.0, 11.0, 9.0, 111.0, 9.0, 11.0, 0, 0, 0, 0]
+2025-07-26 12:26:59,866 - INFO - Prediction: label=0, probability=0.14302338659763336
+2025-07-26 12:29:38,938 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:29:40,364 - INFO - Received input: [11.0, 11.0, 11.0, 11.0, 9.0, 111.0, 9.0, 11.0]
+2025-07-26 12:29:40,364 - INFO - Preprocessed input: [11.0, 11.0, 11.0, 11.0, 9.0, 111.0, 9.0, 11.0, 0, 0, 0, 0]
+2025-07-26 12:29:40,373 - INFO - Prediction: label=0, probability=0.14302338659763336
+2025-07-26 12:30:53,455 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:31:48,042 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:31:53,722 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:32:00,812 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:39:41,255 - INFO - Received input (heart): [1.0, 0, 1, 2.0, 1.0, 0, 0, 3.0, 0, 3.0, 1, 55, 2]
+2025-07-26 12:39:41,314 - INFO - Prediction (heart): label=1, probability=0.7154046893119812
+2025-07-26 12:39:42,135 - ERROR - DynamoDB logging failed (heart): An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+2025-07-26 12:39:55,776 - INFO - Received input (heart): [1.0, 0, 1, 2.0, 1.0, 0, 0, 3.0, 0, 3.0, 1, 55, 2]
+2025-07-26 12:39:55,798 - INFO - Prediction (heart): label=1, probability=0.7154046893119812
+2025-07-26 12:39:56,556 - ERROR - DynamoDB logging failed (heart): An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+2025-07-26 12:43:18,916 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:43:19,477 - INFO - Received input (heart): [1.0, 1, 1, 1.0, 11.0, 1, 0, -2.0, 0, 1.0, 2, 0, 2]
+2025-07-26 12:43:19,541 - INFO - Prediction (heart): label=0, probability=0.437956839799881
+2025-07-26 12:43:19,544 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.437956839799881"
+2025-07-26 12:43:52,148 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:43:52,628 - ERROR - Failed to log heart: name 'v' is not defined
+2025-07-26 12:43:54,039 - ERROR - Failed to log heart: name 'v' is not defined
+2025-07-26 12:43:54,695 - ERROR - Failed to log heart: name 'v' is not defined
+2025-07-26 12:47:41,434 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:47:42,072 - INFO - Received input (heart): [3.0, 0, 0, 33.0, 3.0, 0, 2, 2.0, 0, 31.0, 2, 33, 2]
+2025-07-26 12:47:42,136 - INFO - Prediction (heart): label=1, probability=0.7578727602958679
+2025-07-26 12:47:42,138 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.7578727602958679"
+2025-07-26 12:48:01,609 - INFO - Received input (heart): [1.0, 1, 0, 1.0, 1.0, 0, 0, 1.0, 1, 1.0, 2, -2, 2]
+2025-07-26 12:48:01,645 - INFO - Prediction (heart): label=1, probability=0.5289127230644226
+2025-07-26 12:48:01,646 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5289127230644226"
+2025-07-26 12:49:33,484 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:49:35,135 - INFO - Received input (heart): [1.0, 1, 0, 1.0, 1.0, 0, 0, 1.0, 1, 1.0, 2, -2, 2]
+2025-07-26 12:49:35,145 - INFO - Prediction (heart): label=1, probability=0.5289127230644226
+2025-07-26 12:49:39,253 - INFO - Received input (heart): [1.0, 1, 0, 1.0, 1.0, 0, 0, 1.0, 1, 1.0, 2, -2, 2]
+2025-07-26 12:49:39,257 - INFO - Prediction (heart): label=1, probability=0.5289127230644226
+2025-07-26 12:50:35,047 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:50:41,716 - INFO - Received input (diabetes): [11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 10.0]
+2025-07-26 12:50:41,716 - INFO - Preprocessed input (diabetes): [11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 10.0, 0, 0, 0, 0]
+2025-07-26 12:50:41,771 - INFO - Prediction (diabetes): label=0, probability=0.06102852523326874
+2025-07-26 12:50:41,772 - ERROR - DynamoDB logging failed (diabetes): Unsupported type "<class 'numpy.float32'>" for value "0.06102852523326874"
+2025-07-26 12:50:46,434 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:55:30,533 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:55:31,979 - INFO - Received input: [11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 10.0]
+2025-07-26 12:55:31,979 - INFO - Preprocessed input: [11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 11.0, 10.0, 0, 0, 0, 0]
+2025-07-26 12:55:31,988 - INFO - Prediction: label=0, probability=0.06102852523326874
+2025-07-26 12:55:55,635 - INFO - Received input (heart): [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:55:55,636 - INFO - Prediction (heart): label=1, probability=0.6250488758087158
+2025-07-26 12:56:03,876 - INFO - Received input (heart): [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:56:03,877 - INFO - Prediction (heart): label=1, probability=0.6250488758087158
+2025-07-26 12:56:15,845 - INFO - Received input (heart): [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:56:15,846 - INFO - Prediction (heart): label=1, probability=0.6250488758087158
+2025-07-26 12:56:16,916 - INFO - Received input (heart): [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:56:16,917 - INFO - Prediction (heart): label=1, probability=0.6250488758087158
+2025-07-26 12:56:17,068 - INFO - Received input (heart): [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:56:17,069 - INFO - Prediction (heart): label=1, probability=0.6250488758087158
+2025-07-26 12:57:24,706 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:57:32,912 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 12:57:41,309 - INFO - Received heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:57:41,318 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 12:57:43,548 - INFO - Received heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:57:43,549 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 12:57:43,843 - INFO - Received heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:57:43,844 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 12:57:44,227 - INFO - Received heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:57:44,228 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 12:57:44,499 - INFO - Received heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:57:44,500 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 12:57:51,059 - INFO - Received heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 12:57:51,059 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 13:00:24,648 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:00:25,207 - INFO - Heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 13:00:25,220 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 13:00:25,222 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.6250488758087158"
+2025-07-26 13:00:34,678 - INFO - Heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 13:00:34,691 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 13:00:34,691 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.6250488758087158"
+2025-07-26 13:00:49,918 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:00:52,655 - INFO - Received heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 13:00:52,663 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 13:01:21,038 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:01:29,950 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:01:58,826 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:02:09,241 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:02:16,782 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:02:18,096 - INFO - Received heart input: [11.0, 0, 1, 1.0, 11.0, 1, 0, 1.0, 1, 1.0, 1, 1, 1]
+2025-07-26 13:02:18,107 - INFO - Heart prediction: label=1, probability=0.6250488758087158
+2025-07-26 13:07:12,987 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:09:35,372 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:09:57,217 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:09:57,219 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:07,065 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:10:07,065 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:13,620 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:10:13,620 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:14,119 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:10:14,119 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:14,264 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:10:14,264 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:14,409 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:10:14,410 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:14,556 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:10:14,557 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:14,663 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:10:14,664 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:14,775 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:10:14,775 - ERROR - DynamoDB logging failed (heart): Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:10:30,232 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:10:31,491 - INFO - Received heart input: [-3.0, 0, 0, -1.0, -1.0, 1, 1, -1.0, 0, -1.0, 1, 1, 2]
+2025-07-26 13:10:31,500 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:12:07,469 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:12:10,188 - ERROR - Heart prediction error: Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:12:10,975 - ERROR - Heart prediction error: Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:12:11,328 - ERROR - Heart prediction error: Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:12:11,976 - ERROR - Heart prediction error: Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:12:12,305 - ERROR - Heart prediction error: Unsupported type "<class 'numpy.float32'>" for value "0.5238410830497742"
+2025-07-26 13:12:21,624 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:14:02,006 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-07-26 13:14:02,455 - INFO - Received heart input: [-3.0, 0, 0, -1.0, -1.0, 1, 1, -1.0, 0, -1.0, 1, 1, 2]
+2025-07-26 13:14:02,464 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:14:10,880 - INFO - Received heart input: [-3.0, 0, 0, -1.0, -1.0, 1, 1, -1.0, 0, -1.0, 1, 1, 2]
+2025-07-26 13:14:10,885 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:14:11,452 - INFO - Received heart input: [-3.0, 0, 0, -1.0, -1.0, 1, 1, -1.0, 0, -1.0, 1, 1, 2]
+2025-07-26 13:14:11,453 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:14:22,749 - INFO - Received heart input: [-3.0, 0, 0, -1.0, -1.0, 1, 1, -1.0, 0, -1.0, 1, 1, 2]
+2025-07-26 13:14:22,751 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:14:23,021 - INFO - Received heart input: [-3.0, 0, 0, -1.0, -1.0, 1, 1, -1.0, 0, -1.0, 1, 1, 2]
+2025-07-26 13:14:23,021 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:14:26,005 - INFO - Received heart input: [-3.0, 0, 0, -1.0, -1.0, 1, 1, -1.0, 0, -1.0, 1, 1, 2]
+2025-07-26 13:14:26,006 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:14:53,358 - INFO - Received heart input: [-3.0, 0, 0, -1.0, -1.0, 1, 1, -1.0, 0, -1.0, 1, 1, 2]
+2025-07-26 13:14:53,367 - INFO - Heart prediction: label=1, probability=0.5238410830497742
+2025-07-26 13:15:11,504 - INFO - Received input: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+2025-07-26 13:15:11,504 - INFO - Preprocessed input: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0, 0, 0, 0]
+2025-07-26 13:15:11,519 - INFO - Prediction: label=0, probability=0.05187932401895523
+2025-07-26 13:15:26,378 - INFO - Cancer prediction: label=Squamous Cell Carcinoma, probabilities=[0.0, 1.0, 0.0]
