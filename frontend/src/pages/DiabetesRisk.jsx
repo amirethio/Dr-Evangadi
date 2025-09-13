@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { Activity } from "lucide-react";
+import { Activity, Import } from "lucide-react";
 import FormField from "../components/FormField";
 import Button from "../components/ui/Button";
 import ResultCard from "../components/ResultCard";
 import LoadingSpinner from "../components/ui/LoadingSpinner";
 import { showToast } from "../components/ui/toast";
+import axiosInstance from "../API/axiosInstance";
+
 
 const DiabetesRisk = () => {
   const [formData, setFormData] = useState({
@@ -30,28 +32,28 @@ const DiabetesRisk = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://3.91.5.76:8000/diabet", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          pregnancies: Number(formData.pregnancies),
-          glucose: Number(formData.glucose),
-          blood_pressure: Number(formData.blood_pressure),
-          skin_thickness: Number(formData.skin_thickness),
-          insulin: Number(formData.insulin),
-          bmi: Number(formData.bmi),
-          diabetes_pedigree_function: Number(
-            formData.diabetes_pedigree_function
-          ),
-          age: Number(formData.age),
-        }),
-      });
-
-      if (!response.ok) throw new Error("Server returned an error");
-
-      const data = await response.json();
+     const response = await axiosInstance.post(
+       "/diabet",
+       JSON.stringify({
+         pregnancies: Number(formData.pregnancies),
+         glucose: Number(formData.glucose),
+         blood_pressure: Number(formData.blood_pressure),
+         skin_thickness: Number(formData.skin_thickness),
+         insulin: Number(formData.insulin),
+         bmi: Number(formData.bmi),
+         diabetes_pedigree_function: Number(
+           formData.diabetes_pedigree_function
+         ),
+         age: Number(formData.age),
+       }),
+       {
+         headers: {
+           "Content-Type": "application/json",
+         },
+       }
+     );
+      if (!response.statusText == "OK") throw new Error("Server returned an error");
+      const data = await response.data;
       setResult({
         label: data.label,
         probability: Math.round(data.probability * 100),

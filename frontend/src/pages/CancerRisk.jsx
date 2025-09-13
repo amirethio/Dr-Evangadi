@@ -4,7 +4,7 @@ import Button from "../components/ui/Button";
 import LoadingSpinner from "../components/ui/LoadingSpinner";
 import ResultCard from "../components/ResultCard";
 import { showToast } from "../components/ui/toast";
-
+import axiosInstance from "../API/axiosInstance";
 const CancerRisk = () => {
   const [imageFile, setImageFile] = useState(null);
   const [previewUrl, setPreviewUrl] = useState(null);
@@ -31,14 +31,8 @@ const CancerRisk = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://3.91.5.76:8000/cancer-predict", {
-        method: "POST",
-        body: formData,
-      });
-
-      if (!response.ok) throw new Error("Failed to get prediction");
-
-      const data = await response.json();
+      const response = await axiosInstance.post("/cancer-predict", formData);
+      const data = await response.data;
       setResult({
         label: data.label,
         probabilities: data.probabilities,

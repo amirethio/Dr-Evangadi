@@ -14,10 +14,10 @@ import { fromCognitoIdentityPool } from "@aws-sdk/credential-provider-cognito-id
 // =====================================================================
 // These values MUST exactly match your AWS Lex V2 bot and Cognito Identity Pool setup.
 const REGION = "us-east-1"; // e.g., "us-east-1", "eu-west-1" - where your Lex bot is located
-const BOT_ID = ""; // THIS IS NEW: Find this in your Lex V2 console URL (or bot settings)
-const BOT_ALIAS_ID = ""; // THIS IS NEW: Common for $LATEST, or find your alias ID
+const BOT_ID = "WDNMJVY8CX"; // THIS IS NEW: Find this in your Lex V2 console URL (or bot settings)
+const BOT_ALIAS_ID = "SGLA5QQFPX"; // THIS IS NEW: Common for $LATEST, or find your alias ID
 const LOCALE_ID = "en_US"; // Common locale, ensure it matches your bot's locale
-const IDENTITY_POOL_ID = ""; // Your Amazon Cognito Identity Pool ID
+const IDENTITY_POOL_ID = "us-east-1:f8438e92-3111-4f84-a9f9-6b2be72732ec"; // Your Amazon Cognito Identity Pool ID
 
 // =====================================================================
 // Initialize AWS Lex Runtime V2 Client

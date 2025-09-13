@@ -6,7 +6,7 @@ import Button from "../components/ui/Button";
 import ResultCard from "../components/ResultCard";
 import LoadingSpinner from "../components/ui/LoadingSpinner";
 import { showToast } from "../components/ui/toast";
-
+import axiosInstance from "../API/axiosInstance";
 const HeartRisk = () => {
   const [formData, setFormData] = useState({
     age: "",
@@ -31,59 +31,60 @@ const HeartRisk = () => {
     setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-  // Check for empty fields
-  for (const [key, value] of Object.entries(formData)) {
-    if (value === "" || value === null) {
-      showToast(`Please fill in the '${key}' field.`, "error");
-      return; // Stop form submission
+    // Check for empty fields
+    for (const [key, value] of Object.entries(formData)) {
+      if (value === "" || value === null) {
+        showToast(`Please fill in the '${key}' field.`, "error");
+        return; // Stop form submission
+      }
     }
-  }
 
-  setIsLoading(true);
+    setIsLoading(true);
 
-  try {
-    const response = await fetch("http://3.91.5.76:8000/heart", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        age: Number(formData.age),
-        sex: Number(formData.sex),
-        cp: Number(formData.cp),
-        trestbps: Number(formData.trestbps),
-        chol: Number(formData.chol),
-        fbs: Number(formData.fbs),
-        restecg: Number(formData.restecg),
-        thalach: Number(formData.thalach),
-        exang: Number(formData.exang),
-        oldpeak: Number(formData.oldpeak),
-        slope: Number(formData.slope),
-        ca: Number(formData.ca),
-        thal: Number(formData.thal),
-      }),
-    });
+    try {
+      const response = await axiosInstance.post(
+        "/heart",
+        JSON.stringify({
+          age: Number(formData.age),
+          sex: Number(formData.sex),
+          cp: Number(formData.cp),
+          trestbps: Number(formData.trestbps),
+          chol: Number(formData.chol),
+          fbs: Number(formData.fbs),
+          restecg: Number(formData.restecg),
+          thalach: Number(formData.thalach),
+          exang: Number(formData.exang),
+          oldpeak: Number(formData.oldpeak),
+          slope: Number(formData.slope),
+          ca: Number(formData.ca),
+          thal: Number(formData.thal),
+        }),
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
-    if (!response.ok) throw new Error("Server error");
+      if (!response.statusText == "OK")
+        throw new Error("Server returned an error");
+      const data = await response.data;
+      setResult({
+        label: data.label,
+        probability: Math.round(data.probability * 100),
+        riskLevel: data.riskLevel,
+      });
 
-    const data = await response.json();
-    setResult({
-      label: data.label,
-      probability: Math.round(data.probability * 100),
-      riskLevel: data.riskLevel,
-    });
-
-    showToast("Prediction complete!", "success");
-  } catch (error) {
-    showToast("Prediction failed.", "error");
-  } finally {
-    setIsLoading(false);
-  }
-};
-
+      showToast("Prediction complete!", "success");
+    } catch (error) {
+      showToast("Prediction failed.", "error");
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const getRiskLevel = (prob) => {
     if (prob > 70) return "High";
@@ -240,14 +241,9 @@ const handleSubmit = async (e) => {
         {result && (
           <ResultCard
             title={
-              <>
-                <span className="block font-bold text-lg">Result:</span>
-                <span className="block text-xl">
-                  {result.label === 1
-                    ? "Positive for heart disease"
-                    : "Negative for heart disease"}
-                </span>
-              </>
+              result.label === 1
+                ? "Positive for heart disease"
+                : "Negative for heart disease"
             }
             probability={result.probability}
             riskLevel={getRiskLevel(result.probability)}
