@@ -3,6 +3,9 @@
 **Dr-Evangadi** is an AI-powered health assistant that predicts the risk level for multiple chronic diseases (Diabetes, Heart Disease,lung Cancer) using minimal patient data. Built with AWS SageMaker for training and deployed using EC2 for accessibility.
 
 ---
+![Uploading image.png…]()
+
+---
 
 ## 🚀 Features
 - Predict risk level: Low / Moderate / High
